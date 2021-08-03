@@ -21,12 +21,36 @@
     <mj-section>
       <mj-column>
         <mj-text align="left" font-size="20px" font-style="italic" color="#0c164f">
-          Greetings earthling!
+          Greetings {{recipient}}!
         </mj-text>
         <mj-text font-size="16px" color="#0c164f">
           You have been chosen for our groundbreaking journey into space!
           Be part of an adventure unlike anything you have experienced before. 
         </mj-text>
+
+        {{recipient}}
+        <mj-raw>
+          {{#if allowedPets}}
+        </mj-raw>
+        <mj-button color="green">Book a ticket for your pet</mj-button>
+        <mj-table>
+          <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px 0;">
+            <th style="padding: 0 15px 0 0;">Pet</th>
+            <th style="padding: 0 15px 0 0;">Additional charge</th>
+          </tr>
+          <mj-raw>
+            {{#each allowedPets}}
+              <tr>
+                <td style="padding: 0 15px 0 0;">{{ species }}</td>
+                <td style="padding: 0 15px 0 0;">{{ charge }}</td>
+              </tr>
+            {{/each}}
+          </mj-raw>
+        </mj-table>
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
+
       </mj-column>
       </mj-text>
     </mj-section>

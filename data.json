@@ -1,0 +1,14 @@
+{
+    "recipient": "Sebastian",
+    "foobar": true,
+    "allowedPets": [
+        {
+            "species": "Cat",
+            "charge": "100$"
+        },
+        {
+            "species": "Guinea Pig",
+            "charge": "25$"
+        }
+    ]
+}
