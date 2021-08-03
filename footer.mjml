@@ -1,0 +1,29 @@
+<mj-section>
+    <mj-column>
+        <mj-text align="center">
+            <a href="#" class="footer-text">Imprint</a>
+        </mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text align="center">
+            <a href="#">Privacy Policy</a>
+        </mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text align="center">
+            <a href="#" class="footer-text">Contact</a>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column>
+        <mj-image src="https://sk6473v1uer.blob.core.windows.net/images/corp-logo.png" alt="Weyland-Yutani Corporation" width="91px" href="#"/>
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column>
+        <mj-text>
+            This is an automatically generated e-mail sent from an unmonitored alias. <strong>Please do not reply.</strong> If you have additional questions, please visit <a href="#" title="Contact Details">Contact Details</a>.
+        </mj-text>
+    </mj-column>
+</mj-section>

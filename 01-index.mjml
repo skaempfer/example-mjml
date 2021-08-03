@@ -1,0 +1,46 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your trip to space starts here</mj-title>
+    <mj-preview>You have been chosen for our groundbreaking journey into space! Be part of an adventure unlike anything you have experienced before.</mj-preview>
+    <mj-attributes>
+      <mj-text align="center" color="#0c164f" />
+      <mj-section background-color="#fff" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#eee">
+
+    <mj-section>
+      <mj-column>
+        <mj-text padding="16px" font-family="Helvetica" align="center" font-size="40px" font-weight="900">
+          Your trip to space
+        </mj-text>
+        <mj-button align="center" background-color="#ba1e68" href="https://mjml.io/" color="#fff">
+          Starts here
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="left" font-size="20px" font-style="italic" color="#0c164f">
+          Greetings earthling!
+        </mj-text>
+        <mj-text font-size="16px" color="#0c164f">
+          You have been chosen for our groundbreaking journey into space!
+          Be part of an adventure unlike anything you have experienced before. 
+        </mj-text>
+      </mj-column>
+      </mj-text>
+    </mj-section>
+
+    <mj-section>
+      <mj-column vertical-align="middle">
+        <mj-text font-size="16px">Experience the world from above</mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text font-size="16px">Float in space</mj-text>
+      </mj-column>
+    </mj-section>
+    
+  </mj-body>
+</mjml>
