@@ -31,7 +31,9 @@
         <mj-raw>
           {{#if allowedPets}}
         </mj-raw>
-        <mj-button padding-top="48px" background-color="#0c164f">Book a ticket for your pet</mj-button>
+        <mj-button padding-top="48px" background-color="#0c164f" href="https://mjml.io/">
+          Book a ticket for your pet
+        </mj-button>
         <mj-table color="#0c164f">
           <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px 0;">
             <th style="padding: 0 15px 0 0;">Pet</th>
